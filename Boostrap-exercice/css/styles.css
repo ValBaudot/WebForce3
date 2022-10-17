@@ -1,0 +1,20 @@
+.row > div {
+    outline: 2px solid black;
+}
+
+.nav-pills .nav-link.active {
+    background-color: red;
+}
+
+.nav-pills .nav-link.active:hover {
+    background-color: chartreuse;
+}
+
+#progresbar > div {
+    outline: 0 !important;
+}
+
+
+.carousel-item {
+    height: 500px;
+}

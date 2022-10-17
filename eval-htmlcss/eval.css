@@ -1,0 +1,123 @@
+/*helpers*/
+.image-size {
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+:root {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    margin-right: 50px;
+}
+
+.recherche button{
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.filtres ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.filtres {
+    display: flex;
+    margin-left: 30px;
+}
+
+.filtres ul li {
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.information {
+    display: flex;
+}
+
+/*partie photos*/
+
+
+.photos1 {
+    max-width: 60%;
+    background-color: gray;
+    overflow: hidden;
+    border-radius: 1%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 8%;
+}
+
+.photos1et2 {
+    background-color: grey;    
+}
+
+.haut {
+    float: left;
+    margin: 3%;
+    width: 27%;
+}
+
+.haut-pop {
+    float: left;
+    margin: 3%;
+    width: 100%;
+}
+
+.haut-pop img {
+    width: 60%;
+}
+
+.photos2 {
+    max-width: 20%;
+    background-color: gray;
+    overflow: hidden;
+    border-radius: 1%;
+    padding: 2%;
+}
+
+.petitesphotos {
+
+}
+
+.petitesphotos2 {
+
+}
+
+/*Responsive Design*/
+
+@media screen and (max-width: 768px) {
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .trouvez {
+        justify-content: center;
+    }
+
+    .recherche {
+        justify-content: center;
+    }
+
+    .filtres {
+        display: flex;
+        
+    }
+}

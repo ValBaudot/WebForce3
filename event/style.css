@@ -1,0 +1,17 @@
+.show-hide-para {
+    display: none;
+}
+
+.show-hide-para2 {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.show-hide-para2.open {
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    opacity: 1;
+}

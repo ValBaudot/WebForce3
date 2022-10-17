@@ -1,0 +1,28 @@
+p {
+    color: red;
+}
+
+.blue {
+    color: blue
+}
+
+#baseline {
+    border: 2px solid black;
+}
+
+h2 {
+    background: orange;
+    font-weight: bold;
+}
+
+*{
+    font-size: 20px;
+}
+
+p strong {
+    color: black;
+}
+
+p strong i {
+    color: violet;
+}

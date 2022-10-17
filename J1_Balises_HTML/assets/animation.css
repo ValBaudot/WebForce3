@@ -1,0 +1,114 @@
+.container {
+    background-color: cadetblue;
+    padding: 2em;
+}
+
+.btn {
+    background: red;
+    color: black;
+    font-size: 3vw;
+    cursor: pointer;
+    padding: 1em;
+    width: 400px;
+    border-radius: 20px;
+    transform: scale(1);
+    margin: 50px auto;
+    transition: 1s;
+}
+
+.btn:hover {
+    transform: scale(1.25);
+    background: black;
+    color: red;
+    border: 2px solid white;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+form input {
+    border: 2px solid white;
+    border-radius: 20px;
+    color: darkblue;
+    font-size: 2.5em;
+    outline: none;
+    padding: 1em;
+    width: 100%;
+}
+
+form input:focus {
+    border: 5px solid green;
+}
+
+form input:not(:focus):invalid {
+    border: 2px solid red;
+    background: red;
+    color: white;
+}
+
+.ball {
+    width: 200px;
+    height: 200px;
+    background: violet;
+    border-radius: 50%;
+    margin: auto;
+    transition: .2s ease-in-out;
+}
+
+
+.btn2 {
+    background: red;
+    color: black;
+    font-size: 3vw;
+    cursor: pointer;
+    padding: 1em;
+    width: 400px;
+    border-radius: 20px;
+    margin: 50px auto;
+    transition: 2s ease-in-out;
+}
+
+.btn2:hover+.ball {
+    transform: scale(1.25);
+    background: yellow;
+    border-radius: 20px;
+}
+
+.btn3 {
+    background: red;
+    color: black;
+    font-size: 3vw;
+    cursor: pointer;
+    padding: 1em;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.progres {
+    width: 500px;
+    height: 30px;
+    border: 5px solid black;
+    margin: auto;
+    padding: 2px;
+}
+
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.barre-progres {
+    background: chartreuse;
+    height: 30px;
+    transform: scaleX(0);
+    transform-origin: 0 50% ;
+    transition: 1000ms cubic-bezier(.02,.67,.94,.38);
+}
+
+.btn3:active + .progres > .barre-progres {
+    transform: scaleX(1);
+    transition: 2000ms;
+}

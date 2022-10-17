@@ -1,0 +1,84 @@
+section div {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 40px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.35);
+}
+
+div:first-of-type {
+    background: violet;
+}
+
+div:nth-child(2) {
+    background: green;
+}
+
+div:last-of-type {
+    background: red;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.strectch {
+    align-items: stretch;
+}
+
+.align-flex-start {
+    align-items: flex-start;
+}
+
+.align-flex-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.separation {
+    height: 50px;
+    background-color: black;
+}
+
+.container {
+    padding: 5px;
+    background: yellow;
+    height: 00px;
+}
